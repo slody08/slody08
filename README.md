@@ -1,7 +1,6 @@
-haha, i make beep boop
-
 ```
-#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
 #include <myknowledge.h>
 
 int main(void) {
@@ -9,6 +8,9 @@ int main(void) {
   enum os_t os = ARCH_LINUX;
   enum favlang_t main_lang = C;
   enum country_t country = UKRAINE;
+
+  size_t years_old = 15;
+  bool furry = true;
 
   return 0;
 }
